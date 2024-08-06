@@ -1,5 +1,5 @@
-# geo-wizzard
-## Geo-Wizzard synthetic dataset
+# geo-wizard
+## Geo-Wizard synthetic dataset
 
 We created a synthetic straight line and attempted walk map data to study forms of scoring route deviations. An approximation of the original straight line (in blue) map image is show below.
 
