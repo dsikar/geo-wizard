@@ -29,7 +29,7 @@ python generate-gpx.py \
 --creator DanielSikar \
 --name "GeoWizardSynthetic_0_mean_50_stdev" \
 --author_link https://www.github.com/dsikar \
---author_text GeoWizzard \
+--author_text GeoWizard \
 --author_type text/html   
 ```
 
