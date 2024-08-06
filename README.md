@@ -27,7 +27,7 @@ python generate-gpx.py \
 --planned_filename planned_trail.gpx \
 --executed_filename executed_trail_0_mean_50_stdev.gpx \
 --creator DanielSikar \
---name "GeoWizzardSynthetic_0_mean_50_stdev" \
+--name "GeoWizardSynthetic_0_mean_50_stdev" \
 --author_link https://www.github.com/dsikar \
 --author_text GeoWizzard \
 --author_type text/html   
