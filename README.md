@@ -33,7 +33,7 @@ python generate-gpx.py \
 --author_type text/html   
 ```
 
-The script will generate two files, the planned and the executed trail. In the example given, start point is Bamburgh Beach and end point is the M6 near Mossband. Both generated gpx files contain altitude date. The interval is 100 metres between points with a mean of 0 and a standard deviation of 50 metres. The additonal parameters are filenames and metadata for the gpx files.
+The script will generate two files, the planned and the executed trail. In the example given, start point is Bamburgh Beach and end point is the M6 near Mossband. Both generated gpx files contain altitude data. The interval is 100 metres between points with a mean of 0 and a standard deviation of 50 metres. The additonal parameters are filenames and metadata for the gpx files.
 
 ## Future work
 
