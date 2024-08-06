@@ -43,7 +43,7 @@ We intend to implement the current approaches and add our own, to include altitu
 
 If you would like to contribute, please clone, add your code and create a pull request.
 
-The authors: daniel.sikar, maeve.hutchinson, naman.sign @city.ac.uk
+The authors: daniel.sikar, maeve.hutchinson, naman.singh @city.ac.uk
 
 
 
