@@ -1,7 +1,32 @@
 # geo-wizard
 ## Geo-Wizard synthetic dataset
 
-We created a synthetic straight line and attempted walk map data to study forms of scoring route deviations. An approximation of the original straight line (in blue) map image is show below.
+We created synthetic straight line gpx files and attempted mission map data to study forms of scoring mission goodness-of-straight-line. 
+
+## Mission Across Wales 2019
+
+The code below generates 10 metre interval gpx files for the original straight line plus attempted mission with a zero mean and 10 metre standard deviation.
+
+```
+python generate-gpx.py \
+--start_lat 52.80476458134001 \
+--start_lon -3.1642720853547304 \
+--end_lat 52.748098260804426 \
+--end_lon -3.9358359202433366 \
+--interval 10 \
+--mean 0 \
+--stddev 10 \
+--planned_filename MIssion_Across_Wales_1.gpx \
+--executed_filename MIssion_Across_Wales_1_0_mean_10_stdev.gpx \
+--creator DanielSikar \
+--name "GeoWizardSynthetic_MIssion_Across_Wales_1" \
+--author_link https://www.github.com/dsikar \
+--author_text GeoWizard \
+--author_type text/html  
+```
+
+
+## Mission Across England 2024
 
 ![Planned straight line](images/straight-line-map.png)
 
@@ -32,6 +57,8 @@ python generate-gpx.py \
 --author_text GeoWizard \
 --author_type text/html   
 ```
+
+Note, the coordinates can be obtained from google maps, by clicking on start/end mission points, right clicking and clicking on coordinates to copy to clipboard.
 
 The script will generate two files, the planned and the executed trail. In the example given, start point is Bamburgh Beach and end point is the M6 near Mossband. Both generated gpx files contain altitude data. The interval is 100 metres between points with a mean of 0 and a standard deviation of 50 metres. The additonal parameters are filenames and metadata for the gpx files.
 
