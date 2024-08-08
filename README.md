@@ -2,6 +2,7 @@
 ## Geo-Wizard synthetic dataset
 
 We created synthetic straight line gpx files and attempted mission map data to study forms of scoring mission goodness-of-straight-line. 
+Using the [Unnofficial GeoWizard Straight Line Missons Map](https://www.google.com/maps/d/u/0/viewer?ll=53.79905894594569%2C-2.4638273582179244&z=7&mid=1Ns1HN72VSkBaldaZJ1k5y7JS1miYheeJ) as reference.
 
 ## Mission Across Wales 2019
 
